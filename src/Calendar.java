@@ -32,7 +32,7 @@ public class Calendar {
 
 		}
 		List<WebElement> mylist = driver.findElements(By.xpath("//table[contains(@class,'k-content k-meta-view k-decade')] //a[@class='k-link']"));
-		System.out.println("Year: "+mylist.size());
+		System.out.println("YeaAr: "+mylist.size());
 
 		Iterator<WebElement> it = mylist.iterator();
 		int byear = Integer.parseInt(it.next().getText());
